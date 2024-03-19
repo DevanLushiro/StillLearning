@@ -3,10 +3,7 @@ const comp = Math.floor(Math.random() * 10 + 1);
 let hasil = "";
 let player = parseInt(prompt("Tebak Angkanya Berapa? "))
 
-
-for(let i = 0; i <= 10; i++){
-    hasil[i] += comp
-}
+hasil += comp
 if(player == comp){
     console.log("Lu Bener : " + player + ". " + "Jawabannya : " + comp)
 }else if (isNaN(player)){
