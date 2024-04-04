@@ -14,6 +14,3 @@ if(player == comp){
 else{
     console.log("Lu Salah! : " + player + ". " + "Yang Bener : " + comp)
 }
-
-
-console.log(hasil)
